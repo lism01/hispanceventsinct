@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiesta Hispana CT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#featured">Featured Artists</a></li>
+            <li><a href="#sponsors">Sponsors</a></li>
+            <li><a href="#tickets">Tickets</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="home" class="header">
+        <div class="hero-content">
+            <h1>Fiesta Hispana CT</h1>
+            <p>Celebrate the Heart of Hispanic Culture in Connecticut!</p>
+            <p class="event-date">Date: October 14, 2024 | Time: 10:00 AM - 10:00 PM</p>
+            <a href="#tickets" class="cta-button">Get Tickets</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <h2>About Us</h2>
+        <p>Join us for Fiesta Hispana CT, a full-day celebration of Hispanic heritage with music, food, and art. Dive into the vibrant traditions that make Hispanic culture unique and bring people together.</p>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="section schedule">
+        <h2>Schedule of Events</h2>
+        <table>
+            <tr><th>Time</th><th>Event</th></tr>
+            <tr><td>10:00 AM</td><td>Opening Ceremony</td></tr>
+            <tr><td>11:00 AM</td><td>Salsa Dance Workshop</td></tr>
+            <tr><td>12:30 PM</td><td>Cooking Demonstration</td></tr>
+            <tr><td>2:00 PM</td><td>Mariachi Band Performance</td></tr>
+            <tr><td>4:00 PM</td><td>Traditional Dance Performance</td></tr>
+            <tr><td>6:00 PM</td><td>Featured Artist Concert: <strong>Ana Maria</strong></td></tr>
+            <tr><td>8:00 PM</td><td>Closing Remarks & Fireworks Show</td></tr>
+        </table>
+    </section>
+
+    <!-- Featured Artists Section -->
+    <section id="featured" class="section featured">
+        <h2>Featured Artists</h2>
+        <div class="artist-gallery">
+            <div class="artist">
+                <img src="images/ana_maria.jpg" alt="Ana Maria">
+                <h3>Ana Maria</h3>
+                <p>Award-winning Latin pop singer known for her vibrant performances and soulful voice.</p>
+            </div>
+            <div class="artist">
+                <img src="images/carlos_guitar.jpg" alt="Carlos Estrada">
+                <h3>Carlos Estrada</h3>
+                <p>Famed guitarist blending traditional and modern Hispanic music styles.</p>
+            </div>
+            <div class="artist">
+                <img src="images/mariachi.jpg" alt="Mariachi Los Amigos">
+                <h3>Mariachi Los Amigos</h3>
+                <p>A celebrated mariachi band bringing traditional Mexican music to life.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsors Section -->
+    <section id="sponsors" class="section sponsors">
+        <h2>Our Sponsors</h2>
+        <div class="sponsor-gallery">
+            <img src="images/sponsor1_logo.png" alt="Sponsor 1">
+            <img src="images/sponsor2_logo.png" alt="Sponsor 2">
+            <img src="images/sponsor3_logo.png" alt="Sponsor 3">
+            <img src="images/sponsor4_logo.png" alt="Sponsor 4">
+        </div>
+        <p>We thank our sponsors for their generous support in making Fiesta Hispana CT possible.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 Fiesta Hispana CT. All rights reserved.</p>
+    </footer>
+</body>
+</html>
